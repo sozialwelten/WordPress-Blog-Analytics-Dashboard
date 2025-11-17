@@ -14,14 +14,14 @@ Ein Python-basiertes CLI-Tool zur Analyse von WordPress-Blogs über die REST API
 
 ```bash
 # Repository klonen
-git clone https://github.com/deinusername/wp-blog-analytics.git
-cd wp-blog-analytics
+git clone https://github.com/sozialwelten/WordPress-Blog-Analytics-Dashboard.git
+cd WordPress-Blog-Analytics-Dashboard
 
 # Dependencies installieren
 pip install -r requirements.txt
 
 # Script ausführbar machen (Linux/macOS)
-chmod +x wp_analytics.py
+chmod +x WordPressBlogAnalyticsDashboard.py
 ```
 
 ## Voraussetzungen
@@ -35,13 +35,13 @@ chmod +x wp_analytics.py
 ### Basis-Analyse (Terminal-Output)
 
 ```bash
-./wp_analytics.py https://deinblog.de
+./WordPressBlogAnalyticsDashboard.py https://deinblog.de
 ```
 
 ### HTML-Dashboard generieren
 
 ```bash
-./wp_analytics.py https://deinblog.de --format html
+./WordPressBlogAnalyticsDashboard.py https://deinblog.de --format html
 ```
 
 Erstellt eine interaktive HTML-Datei mit Visualisierungen.
@@ -49,7 +49,7 @@ Erstellt eine interaktive HTML-Datei mit Visualisierungen.
 ### JSON-Export
 
 ```bash
-./wp_analytics.py https://deinblog.de --format json
+./WordPressBlogAnalyticsDashboard.py https://deinblog.de --format json
 ```
 
 Exportiert strukturierte Daten für weitere Verarbeitung.
@@ -57,7 +57,7 @@ Exportiert strukturierte Daten für weitere Verarbeitung.
 ### Hilfe anzeigen
 
 ```bash
-./wp_analytics.py --help
+./WordPressBlogAnalyticsDashboard.py --help
 ```
 
 ## Ausgabebeispiel (Terminal)
@@ -124,12 +124,6 @@ daten............... 15 ████████████
 ## Lizenz
 
 GNU General Public License v3.0
-
-Dieses Projekt ist freie Software: Sie können es unter den Bedingungen der GNU General Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren Version.
-
-Siehe [LICENSE](LICENSE) für Details.
-
-## Autor
 
 **Michael Karbacher**
 
